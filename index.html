@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="toggle-container">
+            <div id="inset">
+                <div id="ball"></div>
+            </div>
+        </div>
+        <div id="container">
+            <h1>Budget Calculator</h1>
+            <div id="budget">
+                <h2>How much 💸 is in the fund?</h2>
+                <div>
+                    <span>£</span><input class="inBox" id="fundAmount" placeholder="0.00"></input>
+                </div>
+            </div>
+            <div id="costs">
+                <h2>How much are the items?</h1>
+                <div id="costsInput">
+                    <div class="items">
+                        <label>Item 1</label>
+                        <div>
+                            <span>£</span><input class="inBox" id="item1Amount" placeholder="0.00"></input>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <label>Item 2</label>
+                        <div>
+                            <span>£</span><input class="inBox" id="item2Amount" placeholder="0.00"></input>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <label>Item 3</label>
+                        <div>
+                            <span>£</span><input class="inBox" id="item3Amount" placeholder="0.00"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="submit">Give it to me straight!</button>
+            <h2 id="message"></h2>
+        </div>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
